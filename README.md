@@ -12,7 +12,7 @@ git submodule add <submodule_url>
 
 ## Contents
 
-1. Simple HTTP Service in Python
+1. Simple HTTP Server in Python
 2. Re-use-able Javascript toolbox
 3. Template _src_ folder including _index.html_, _style.css_, ...
 
