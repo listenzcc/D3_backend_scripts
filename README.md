@@ -1,8 +1,8 @@
-# D3 backend scripts
+# HTML backend scripts
 
-It is a package of D3 backend scripts.
+It is a package of HTML backend scripts.
 
-The aim is providing an one-button-deploy D3 backend.
+The aim is providing an one-button-deploy HTML backend.
 
 ## How to deploy
 
@@ -21,5 +21,8 @@ git submodule add <submodule_url>
 ### Start Simple HTTP Service
 
 ```python
-python [D3_backend_scripts]\\main.py
+# In the path of [HTML_backend_scripts],
+# in order to correctly locate the relative path.
+# Run main.py
+python main.py
 ```
