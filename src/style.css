@@ -1,0 +1,25 @@
+div {
+  background-color: beige;
+  margin: 3px;
+  padding: 2px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 1px;
+  border-left: 1px solid #cbcbcb;
+  border-right: 1px solid #cbcbcb;
+  /* border-width: 0 0 1 1px; */
+}
+
+th {
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+}
