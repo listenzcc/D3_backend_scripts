@@ -1,5 +1,6 @@
-// File: onload.js
-// Aim: Run on load of the html
+// File: add_colors.js
+// Aim: Run on load of the html, add colors components
+//      The colors components will be inserted into #colorsDiv
 
 console.log("Onload .js is running.");
 
