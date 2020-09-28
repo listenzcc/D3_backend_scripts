@@ -27,3 +27,26 @@ function json2list(json) {
 
   return [list, keys];
 }
+
+function toggle_visible(dom) {
+  // Toggle the visibility of the [dom]
+  if (dom.style.display == "none") {
+    // Now the dom is hidden
+    // Show it
+    dom.style.display = dom.style.defaultDisplay;
+    // Return true
+    return true;
+  } else {
+    // Now the dom is visible,
+    // Restore the display
+    dom.style.defaultDisplay = dom.style.display;
+    // Hide it
+    dom.style.display = "none";
+    // Return false
+    return false;
+  }
+}
+
+function is_hidden(dom) {
+  return dom.style.display == "none";
+}

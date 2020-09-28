@@ -1,9 +1,6 @@
+/* General style */
 div {
-  background-color: beige;
-  margin: 3px;
-  padding: 2px;
-  height: 600px;
-  overflow-y: scroll;
+  border: 1px solid #cbcbcb;
 }
 
 table {
@@ -17,9 +14,41 @@ th {
   border-left: 1px solid #cbcbcb;
   border-right: 1px solid #cbcbcb;
   /* border-width: 0 0 1 1px; */
+  font-family: monospace;
+  font-size: 15px;
 }
 
 th {
   border-top: 1px solid #cbcbcb;
   border-bottom: 1px solid #cbcbcb;
+  font-size: 20px;
+}
+
+input {
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Style based on class */
+div.Flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.container {
+  /* background-color: beige; */
+  margin: 3px;
+  padding: 2px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+div.color_block {
+  height: 10px;
+  width: 40px;
+}
+
+td.color_block {
+  text-align: -webkit-center;
 }
