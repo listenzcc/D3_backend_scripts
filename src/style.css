@@ -49,6 +49,12 @@ div.color_block {
   width: 40px;
 }
 
+div.img_bed {
+  width: 6in;
+  height: 5in;
+  overflow: scroll;
+}
+
 td.color_block {
   text-align: -webkit-center;
 }

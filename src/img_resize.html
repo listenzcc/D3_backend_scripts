@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="#" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="reuseable.js"></script>
+    <title>ImgResize</title>
+  </head>
+  <body>
+    <h1>ImgResize Demo</h1>
+    <div class="Flex">
+      <div class="container">
+        <h2>Simple Image</h2>
+        <div class="img_bed">
+          <img
+            src="https://tse1-mm.cn.bing.net/th/id/OIP.0dYtLh75KoWIpaeYn3AuWwHaF9?pid=Api&rs=1"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <h2>Resize Image</h2>
+        <div class="img_bed">
+          <img
+            id="resize_img"
+            src="https://tse1-mm.cn.bing.net/th/id/OIP.0dYtLh75KoWIpaeYn3AuWwHaF9?pid=Api&rs=1"
+          />
+        </div>
+        <div>
+          <input
+            id="scale_input"
+            type="range"
+            min="1"
+            max="3"
+            value="1"
+            step="0.1"
+            onchange="dpi_on_change()"
+          />
+          <output id="scale_output">1</output>
+        </div>
+        <output id="dpi_output">0</output>
+      </div>
+    </div>
+
+    <div>
+      <h2 onclick="toggle_visible(fullsize_img)">Full Size Image</h2>
+      <img
+        id="fullsize_img"
+        src="https://tse1-mm.cn.bing.net/th/id/OIP.0dYtLh75KoWIpaeYn3AuWwHaF9?pid=Api&rs=1"
+      />
+    </div>
+
+    <script>
+      let _width = resize_img.width;
+      let _height = resize_img.height;
+      let origin_size = [_width, _height];
+      dpi_output.value = _width / 6;
+
+      function dpi_on_change() {
+        var value = scale_input.value;
+        scale_output.value = value;
+
+        let img = document.getElementById("resize_img");
+        img.width = origin_size[0] * value;
+        fullsize_img.width = img.width;
+
+        dpi_output.value = img.width / 6;
+      }
+    </script>
+  </body>
+</html>

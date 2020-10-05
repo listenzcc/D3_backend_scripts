@@ -32,6 +32,7 @@ class HTTPServer(object):
 
 # Set up HOMEPAGE
 HOMEPAGE = 'http://localhost:8000/src/index.html'
+HOMEPAGE = 'http://localhost:8000/src/img_resize.html'
 
 # Define FUNCTIONS dict,
 # key is the hot key,
