@@ -110,7 +110,7 @@ function create_colors_table(list, keys) {
   // });
 }
 
-d3.json("http://localhost:8000/src/colors.json").then(function (data) {
+d3.json("http://127.0.0.1:5000/colors.json").then(function (data) {
   console.log("Data is loaded:");
   console.log(data);
   var parsed = json2list(data);
