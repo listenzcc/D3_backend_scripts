@@ -2,13 +2,11 @@
 # Aim: Backend server in flask
 
 import os
-from flask import Flask, redirect, abort, render_template
-from . import src_path
-from .fix_known_issue import FixKnownIssue
+from flask import Flask, redirect, abort, make_response
+from . import config
 
 # Initialization
 app = Flask(__name__)
-fki = FixKnownIssue()
 
 
 # Response of /
@@ -20,11 +18,16 @@ def index():
 # Response of file
 @app.route('/<filename>')
 def get_file(filename):
+    src_path = config.query('Directory', 'src')
     path = os.path.join(src_path, filename)
     try:
         with open(path, 'r') as f:
             lines = f.readlines()
-        return fki.pipeline(filename, ''.join(lines))
+        resp = make_response(''.join(lines), 200)
+        if filename.endswith('.css'):
+            resp.headers['Content-Type'] = 'text/css; charset=utf-8'
+        config.logger.debug('{}'.format(resp.headers).strip())
+        return resp
     except IOError:
         return abort(404)
 
@@ -34,4 +37,5 @@ class Server(object):
         self.app = app
 
     def run(self):
+        config.logger.info('Starting server')
         self.app.run()
