@@ -1,0 +1,70 @@
+2020-10-27 20:53:00,290: develop: INFO: config.py: Logger initialized at "develop" mode
+2020-10-27 20:53:00,298: develop: DEBUG: config.py: Append new config: "Directory":"src" as "C:\Users\zcc\Documents\HTML_backend_scripts\FlaskServer\config.py\..\../src/"
+2020-10-27 20:53:00,300: develop: DEBUG: config.py: Append new config: "KnownType":"css" as "text/css"
+2020-10-27 20:53:00,300: develop: DEBUG: config.py: Append new config: "KnownType":"pdf" as "application/pdf"
+2020-10-27 20:53:00,300: develop: DEBUG: config.py: Append new config: "KnownType":"html" as "text/html"
+2020-10-27 20:53:00,300: develop: DEBUG: config.py: Append new config: "Charset":"coding" as "utf-8"
+2020-10-27 20:53:00,300: develop: DEBUG: config.py: Configure is loaded: 
+       GROUP    NAME                                              VALUE
+0  Directory     src  C:\Users\zcc\Documents\HTML_backend_scripts\Fl...
+1  KnownType     css                                           text/css
+2  KnownType     pdf                                    application/pdf
+3  KnownType    html                                          text/html
+4    Charset  coding                                              utf-8
+2020-10-27 20:53:00,521: develop: INFO: server.py: Starting server
+2020-10-27 20:53:41,644: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 616
+2020-10-27 20:53:41,668: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:53:41,671: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:53:41,674: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 2880
+2020-10-27 20:53:42,372: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 77567
+2020-10-27 20:53:42,383: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 616
+2020-10-27 20:54:11,567: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:11,590: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:54:11,590: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:54:11,725: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:20,256: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:20,274: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:54:20,274: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:54:20,294: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:32,325: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:32,354: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:54:32,354: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:54:32,407: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:37,870: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:54:42,013: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:54:42,030: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:54:42,035: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:54:42,540: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:55:25,005: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:55:25,035: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
+2020-10-27 20:55:25,035: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1192
+2020-10-27 20:55:25,099: develop: DEBUG: server.py: Content-Type: text/html; charset=utf-8
+Content-Length: 1932
+2020-10-27 20:55:27,929: develop: DEBUG: server.py: Content-Type: text/css; charset=utf-8
+Content-Length: 860
