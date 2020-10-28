@@ -1,0 +1,3 @@
+[submodule "QuickPythonConfig"]
+	path = QuickPythonConfig
+	url = git@github.com:listenzcc/QuickPythonConfig.git

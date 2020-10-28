@@ -1,5 +1,5 @@
 # File: config.py
-# Aim: Maintaince the config and logging of the package
+# Aim: Maintains the config and logging of the package
 
 # Imports
 import configparser
