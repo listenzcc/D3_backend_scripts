@@ -27,6 +27,10 @@ git submodule add <submodule_url>
 python main.py
 ```
 
+### Flask Server
+
+Using python package of Flask to serve http requests.
+
 ## Useful URLs
 
 - [D3.js](https://d3js.org)
